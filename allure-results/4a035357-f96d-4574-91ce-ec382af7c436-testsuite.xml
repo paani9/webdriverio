@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666092409545' stop='1666092436795'>
+    <name>create grade</name>
+    <title>create grade</title>
+    <test-cases>
+        <test-case start='1666092409566' status='broken' stop='1666092436786'>
+            <name>grade creation</name>
+            <title>grade creation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='ee8e27c8-c208-498e-9821-05bdf26f32f3-attachment.mp4' type='video/mp4' size='116'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'getText')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'getText')
+                    at Context.&lt;anonymous> (C:\Users\SIVA KUMAR\Desktop\webdriverio\test\specs\sms.apage\creategradepom.js:22:59)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666078453311' stop='1666078473373'>
+    <name>create classroom</name>
+    <title>create classroom</title>
+    <test-cases>
+        <test-case start='1666078453312' status='broken' stop='1666078473372'>
+            <name>classroom</name>
+            <title>classroom</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e23eab47-131c-4da3-b9ef-f4e41a33aca3-attachment.png' type='image/png' size='40737'/>
+            </attachments>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.wrapCommandFn (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

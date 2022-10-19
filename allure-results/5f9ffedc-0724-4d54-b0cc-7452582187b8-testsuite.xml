@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666092328806' stop='1666092363945'>
+    <name>create grade</name>
+    <title>create grade</title>
+    <test-cases>
+        <test-case start='1666092328833' status='failed' stop='1666092363935'>
+            <name>grade creation</name>
+            <title>grade creation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='970ccbdc-7594-4ab8-a3c1-4f90b5f710a9-attachment.mp4' type='video/mp4' size='116'/>
+            </attachments>
+            <failure>
+                <message>Expect  to have text containing
+                
+                Expected: "All Grade"
+                Received: undefined</message>
+                <stack-trace>Error: Expect  to have text containing
+                
+                Expected: "All Grade"
+                Received: undefined
+                    at GradePage.allgradevalid (C:\Users\SIVA KUMAR\Desktop\webdriverio\test\smspageobjects\gradepage.js:91:42)
+                    at Context.&lt;anonymous> (C:\Users\SIVA KUMAR\Desktop\webdriverio\test\specs\sms.apage\creategradepom.js:16:25)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

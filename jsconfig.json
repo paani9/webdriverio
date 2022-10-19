@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "types": [
+            "node",
+            "webdriverio/sync",
+            "@wdio/mocha-framework"
+        ]
+    },
+    "include" : [
+        "test/**/*.js",
+        "**/*.json",
+        "node_modules/@wdio/sync",
+        "node_modules/@wdio/mocha-framework"
+, "Testdata/readdata.js", "Testdata/jslogintoapp.js", "test/specs/sms.apage/creategradepom.js", "test/specs/sms.apage/createexampom.js"    ]
+}
